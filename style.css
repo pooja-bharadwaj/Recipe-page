@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -22,8 +21,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* font-family: "Outfit","Young Serif", serif;
-    font-family: "Young Serif", serif; */
   font-family: "Outfit", serif;
 }
 
@@ -126,8 +123,7 @@ li::marker {
 
 /* nutrition section */
 .nutrition {
-  display: flex;
-  flex-direction: column;
+  display: block;
   gap: 20px;
 }
 .nutrition h2 {
